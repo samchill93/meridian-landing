@@ -4,11 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meridian Coffee Roasters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Meridian Coffee Roasters</h1>
-  <p>Scaffold is working.</p>
+  <header class="site-header">
+    <a class="brand" href="#">Meridian</a>
+    <nav class="nav">
+      <a href="#">Coffee</a>
+      <a href="#">Our Story</a>
+      <a href="#">Subscribe</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow">Single origin · Est. 2019</p>
+    <h1 class="hero-title">Coffee at its<br><em>meridian.</em></h1>
+    <p class="hero-sub">Small-batch beans roasted the morning they ship — caught at the exact peak of flavor, never a minute past.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#">Shop the roast</a>
+      <a class="btn btn-ghost" href="#">Explore origins</a>
+    </div>
+  </main>
+
+  <section class="roasts">
+    <div class="section-head">
+      <p class="eyebrow">The core three</p>
+      <h2 class="section-title">Dawn to dusk.</h2>
+      <p class="section-note">One roast for every point of the sun's arc — from a bright, floral morning cup to a deep, slow-burning evening pour.</p>
+    </div>
+
+    <div class="roast-grid">
+      <article class="roast-card">
+        <div class="roast-level"><span class="dot dot-light"></span>Light roast</div>
+        <h3 class="roast-name">Meridian Dawn</h3>
+        <p class="roast-origin">Ethiopia · Yirgacheffe</p>
+        <p class="roast-notes">Jasmine, bergamot, and a wash of stone fruit. Bright and aromatic.</p>
+        <div class="roast-foot">
+          <span class="price">$19</span>
+          <a class="add" href="#">Add to bag →</a>
+        </div>
+      </article>
+
+      <article class="roast-card">
+        <div class="roast-level"><span class="dot dot-medium"></span>Medium roast</div>
+        <h3 class="roast-name">High Noon</h3>
+        <p class="roast-origin">Colombia · Huila</p>
+        <p class="roast-notes">Caramel, red apple, and cocoa. Balanced, round, endlessly drinkable.</p>
+        <div class="roast-foot">
+          <span class="price">$18</span>
+          <a class="add" href="#">Add to bag →</a>
+        </div>
+      </article>
+
+      <article class="roast-card">
+        <div class="roast-level"><span class="dot dot-dark"></span>Dark roast</div>
+        <h3 class="roast-name">Dusk Blend</h3>
+        <p class="roast-origin">Sumatra · Brazil</p>
+        <p class="roast-notes">Dark chocolate, molasses, and cedar. Deep, smoky, and slow.</p>
+        <div class="roast-foot">
+          <span class="price">$17</span>
+          <a class="add" href="#">Add to bag →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
